@@ -19,7 +19,7 @@ const Header = () => {
         <div className='header'>
             <div className="navbar">
                 <div className="nav-logo">
-                    <a href="#"><h2>Porfólio</h2></a>
+                    <a href="#"><h2>Portfólio</h2></a>
                 </div>
 
                 <nav className="nav-menu">
@@ -37,11 +37,11 @@ const Header = () => {
                     <a href="#" target="_blank"><img src={iconWhatsapp} alt="" /></a>
                 </div>
 
-                <button className="btn-mobile" id='btn-mobile' onClick={openMenu}>
+                <buttont type='submit' className="btn-mobile" id='btn-mobile' onClick={openMenu}>
                     <span></span>
                     <span></span>
                     <span></span>
-                </button>
+                </buttont>
             </div>
         </div>
     )
